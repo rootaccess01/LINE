@@ -6,24 +6,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token='EkmfOIpoeCijfSyGd08a.+oB38GWyDcfEJ2pdUvGh2G.FJqxyRU2uP9hWnu4nciMGC2RC5Adp+n3oNCpB2dZTbM=')
-cl.loginResult()
-
-kc = LINETCR.LINE()
-kc.login(token='EkfRXrHkBS6HRnw358o8.Tz8IGemBO2GJbmx0LFTDka.n/pbInR7vFeoykl+xZIrC/iNaIn8s+RtgIBz2cvpP24=')
-kc.loginResult()
-
-kk = LINETCR.LINE()
-kk.login(token='Ek3wFPSsBYjopI8wSBs9.ymwVrvVFUkfRyEAsNMAW2q.Urle+NHKrrpqPaL9MYbQUinpoD5hAz0wg6UQgEllM+4=')
-kk.loginResult()
-
-ki = LINETCR.LINE()
-ki.login(token='Ek14p3E9otKlJ5hPMe8b.tiosdnNgoYYYlzTul8ZR2W.pTahOUfBkf1ozPV/shKf9ljinVQtTtVhZu1Wie6Y/UQ=')
-ki.loginResult()
-
-ks = LINETCR.LINE()
-ks.login(token='EkRXtyrehkVYuqaHwyR6.X0acdtz2tGaEZ4a/flc79G.rWbBrdBsYNECcVPqfFCuOBSTJaYz1WP0cjn+W3DbRp8=')
-ks.loginResult()
+cl.login(token
 
 print "login success"
 reload(sys)
